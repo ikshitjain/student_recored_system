@@ -1,8 +1,8 @@
 // Local development
-const API = "http://localhost:5000";
+//const API = "http://localhost:5000";
 
 // When deployed, replace this with backend URL 👇
-// const API = "https://your-backend.onrender.com";
+ const API = "https://studentrecoredsystem.vercel.app/";
 
 async function getStudents() {
   const res = await fetch(`${API}/api/students`);
